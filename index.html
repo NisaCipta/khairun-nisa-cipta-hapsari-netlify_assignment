@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khairun Nisa Cipta Hapsari | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-0 m-0 font-mono">
+    <!-- HEADER -->
+    <header class="bg-teal-900 px-20 py-4 w-full flex justify-between sticky top-0 text-white">
+      <h1 class="">Portfolio</h1>
+      <nav class="flex space-x-6">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="flex flex-col justify-center items-center">
+      <h1 class="mt-3 pt-16 text-[20px]">Hello ... My Name is</h1>
+      <h3 class="mb-1 text-[30px] text-center">Khairun Nisa Cipta Hapsari</h3>
+      <img class="w-60 bg-orange-100 rounded-xl my-3" src="https://nisacipta.github.io/portfolio-nisa.io/assets/img/nizz.png" alt="Khairun Nisa Cipta Hapsari" />
+      <div class="bg-teal-900 w-4/5 h-2 my-8"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="flex flex-col justify-center items-center" id="about">
+      <h3 class="text-xl py-16">About Me</h3>
+
+      <p class="bg-gray-200 shadow mx-24 p-5 rounded-3xl">Hello, my name is Khairun Nisa Cipta Hapsari, I am currently studying at one of the biggest universities in Palu City, Tadulako University. As someone who aspires to become Backend Engineering, it is certainly not easy to make it happen. I joined a community on campus to continue to hone skills in the Backend Engineering. For the language I learned in the community is Go Language</p>
+    </section>
+
+    <!-- GRADUATION -->
+    <section id="graduation">
+      <h3 class="text-xl py-16 text-center">Graduation</h3>
+
+      <div class="text-white mx-24 grid-flow-col auto-cols-auto">
+        <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 ">
+          <div class="bg-teal-900 rounded-xl flex flex-col justify-center py-3 px-3">
+            <h4 class="text-lg font-bold text-center">Kindergarten School</h4>
+              <ol class="list-decimal list-outside">
+                <li> I started school at four and a half years old </li>
+                <li>My school consists of two floors </li>
+                <li>Entered school in 2007 to 2008</li> 
+              </ol>
+            </div>
+    
+            <div class="bg-teal-900 rounded-xl flex flex-col justify-center py-3 px-3">
+            <h4 class="text-lg font-bold text-center"> Elementary School</h4>
+              <ol class="list-decimal list-outside">
+                <li> I started entered to school at five and a half years old</li>
+                <li>From grade 1 to grade 2, I don't have friends yet</li> 
+                <li>Entered school in 2008 to 2014</li> 
+              </ol>
+            </div>
+
+            <div class="bg-teal-900 rounded-xl flex flex-col justify-center py-3 px-3">
+            <h4 class="text-lg font-bold text-center">Ibtidaiyah School</h4>
+              <ol class="list-decimal list-outside">
+                <li>When I was in 4th grade in elementary school, I started to enter Madrasah Ibtidaiyah</li>
+                <li>Normally it takes 4 years to graduate at this madrasa, but because I am an outstanding student, I only finished it in 3 years. </li>
+                <li>Entered Madrasah in 2011 to 2014</li> 
+              </ol>
+            </div>
+
+          <div class="bg-teal-900 rounded-xl flex flex-col justify-center py-3 px-3">
+          <h4 class="text-lg font-bold text-center">Junior High School</h4>
+          <ol class="list-decimal list-outside">
+              <li>Still in the same location as madrasah ibtidaiyah </li> 
+              <li>This madrasah consists of three floors</li> 
+              <li> Entered Madrasah in 2014 to 2017</li>
+          </ol>
+          </div>
+
+          <div class="bg-teal-900 rounded-xl flex flex-col justify-center py-3 px-3">
+          <h4 class="text-lg font-bold text-center">Senior High School</h4>
+            <ol class="list-decimal list-outside">
+              <li>Starting to be given permission by parents to bring their own motorbike</li> 
+              <li>Selected as a school representative to participate in OSN mathematics</li> 
+              <li>Entered Madrasah in 2017 to 2020</li> 
+            </ol>
+          </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="flex flex-col justify-center items-center" >
+      <h3 class="text-xl py-16 ">Portfolio</h3>
+      <p>Contoh Portfolio yang telah saya buat</p>
+      <ol class="list-decimal list-inside">
+        <li>Template Bootstrap <a class="text-blue-700" href="https://nisacipta.github.io/">here</a></li>
+        <li>CSS Native dan Javascript <a class="text-blue-700" href="https://nisacipta.github.io/portfolio-nisa.io/">here</a></li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="flex flex-col items-center "  id="contact">
+      <h3 class="text-xl py-9">Contact Me</h3>
+      <form class="w-3/6" action="#">
+          <div class="flex gap-3 flex-col sm:flex-row">
+            <input class=" text-gray-500 bg-gray-200 font-bold block mb-1 md:mb-0 pr-4 sm:w-3/5 py-4 px-4 " type="text" id="name" name="name" placeholder="Name" />
+            <input class=" text-gray-500 bg-gray-200 font-bold block mb-1 md:mb-0 pr-4 sm:w-3/5 py-4 px-4 " type="email" id="email" name="email" placeholder="Email"/>
+          </div>
+          <div class="pt-3">
+            <Textarea class="text-gray-500 bg-gray-200 font-bold block mb-1 md:mb-0 w-full pr-4 py-4 px-4 " id="message" placeholder="Message"></Textarea>
+          </div>
+          <div class="mx-auto flex justify-center">
+            <button class="bg-teal-900 shadow-lg shadow-green-400/50 m-10 px-10 py-3 rounded-xl text-white uppercase mx-auto">Submit</button>
+          </div>
+      </form>  
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-teal-900 flex flex-col justify-center items-center">
+      <div class="flex space-x-7 pt-5 w-40">
+        <a href="https://github.com/NisaCipta/"><img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="github" width="50"></a>
+        <a href="https://www.linkedin.com/in/khairunnisaciptahapsari/"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png" alt="linkedIn" width="50"></a>
+        <a href="https://www.instagram.com/knisach14/"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670274.png" alt="instagram" width="50"></a>
+      </div>
+        <p class="py-4">Created by &#9829 Khairun Nisa Cipta Hapsari</p>
+    </footer>
+  </body>
+</html>
